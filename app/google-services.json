@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "988977194198",
+    "firebase_url": "https://digitalmuncipality.firebaseio.com",
+    "project_id": "digitalmuncipality",
+    "storage_bucket": "digitalmuncipality.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988977194198:android:4df1ff973c0f5c97",
+        "android_client_info": {
+          "package_name": "com.medit.digitalmuncipality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988977194198-khl3qm0qhb0ib675fi7se18nmfk5h0ci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medit.digitalmuncipality",
+            "certificate_hash": "ac18e18acb6d81fb4f6576a8e0281f08d467bda4"
+          }
+        },
+        {
+          "client_id": "988977194198-6sgoa3tp7sb7q895ftl8ale6aih1mm8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqNMA9D-E-ry5__lK-hiWMv7LE1xS_jVs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988977194198-6sgoa3tp7sb7q895ftl8ale6aih1mm8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

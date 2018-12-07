@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="196dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:fontFamily="cursive"
+                android:text="Digital Muncipality"
+                android:textSize="30sp" />
+        </RelativeLayout>
+
+        <!--<EditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginStart="16dp"-->
+            <!--android:layout_marginTop="32dp"-->
+            <!--android:layout_marginEnd="16dp"-->
+            <!--android:background="@drawable/login_txt_bg"-->
+            <!--android:hint="Username"-->
+            <!--android:inputType="text"-->
+            <!--android:textColorHint="#7c7c7c"-->
+            <!--android:maxLines="1"-->
+            <!--android:textColor="#7c7c7c"-->
+            <!--android:padding="12dp" />-->
+
+        <EditText
+            android:id="@+id/login_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/login_txt_bg"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:textColorHint="#7c7c7c"
+            android:textColor="#7c7c7c"
+            android:maxLength="10"
+            android:padding="12dp" />
+        <EditText
+            android:id="@+id/login_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/login_txt_bg"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#7c7c7c"
+            android:textColor="#7c7c7c"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/login_btn_bg"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Log In"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/user_unregistered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Don't have an account? Sign Up" />
+    </LinearLayout>
+
+</ScrollView>

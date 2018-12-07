@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Digital Muncipality</string>
+
+    <string-array name="complaint_topics">
+        <item>Roads</item>
+        <item>Street Lights</item>
+        <item>Stray Dogs</item>
+        <item>Garbage</item>
+        <item>Drains</item>
+        <item>Medical and Health</item>
+        <item>Others</item>
+    </string-array>
+</resources>

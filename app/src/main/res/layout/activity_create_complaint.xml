@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/ComplaintTheme"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimary"
+            app:title="Register a complaint"
+            app:titleTextColor="#FFF" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_below="@id/toolbar"
+            style="@style/ComplaintTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Select Complaint Topic:"
+            android:textSize="16dp" />
+
+        <Spinner
+            android:layout_below="@id/text"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:layout_below="@id/spinner"
+            android:id="@+id/problem_statement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/text_area"
+            android:gravity="top"
+            android:hint="Describe your problem"
+            android:inputType="text|textMultiLine"
+            android:minLines="8"
+            android:padding="8dp" />
+
+        <LinearLayout
+            android:id="@+id/eve"
+            android:layout_below="@id/problem_statement"
+            android:layout_width="match_parent"
+            android:layout_margin="12dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ComplaintTheme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="5"
+                android:padding="8dp"
+                android:text="Add images"
+                android:textSize="16dp" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="16dp"
+                android:src="@drawable/ic_add_a_photo_black_24dp" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:padding="16dp"
+                android:src="@drawable/ic_insert_photo_black_24dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@id/eve"
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit"/>
+
+        <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</ScrollView>
